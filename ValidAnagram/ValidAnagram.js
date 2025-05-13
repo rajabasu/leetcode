@@ -32,8 +32,7 @@ const isAnagram = (s, t) => {
 
   // All counts should be zero if they are anagrams
   // This check is implicitly handled by the decrement loop.
-  // If the loop finishes, it means all characters in t were found in s
-  // with matching frequencies.
+  // If the loop finishes, it means all characters in t were found in s with matching frequencies.
   return true;
 };
 
